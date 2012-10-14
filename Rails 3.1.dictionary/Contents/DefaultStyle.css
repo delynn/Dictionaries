@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+d|entry {
+}
+
+h1, h2, h3 {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 { font-size: 130%; }
+h1 .classname  { font-size: 80%; }
+h1 .methodtype { font-size: 80%; }
+h1 .visibility { font-size: 70%; font-weight: normal; }
+
+ul.classmethods    li { list-style-type: circle; }
+ul.instancemethods li { list-style-type: disc; }
+ul.attributes      li { list-style-type: none; }
+
+.access  { background-color: #000; color: #fff; border-radius: 5px; padding: 0 0 0 2px; text-align: center; font-size: 70%; margin-right: 5px; }
+.raccess { background-color: #666; }
+
+hr { border: none; border-bottom: 1px solid #ddd; }
+
+p.method_name {
+  color: #666;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+dl.rdoc-list dt {
+  font-weight: bold;
+}
+
+tt,
+pre,
+p.signatures {
+	font-family: Inconsolata, Monaco;
+	font-size: 12px;
+}
+
+pre {
+  background: rgb(254,251,243);
+  border: 1px solid rgba(0,0,0,0.2);
+  color: rgb(5, 75, 125);
+  line-height: 16px;
+  padding: 9px;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+a {
+  color: rgb(41, 113, 167);
+	text-decoration: none;
+}
